@@ -216,7 +216,7 @@ public class CommandGenericHID {
   }
 
   /**
-   * Constructs a Trigger instance that is true when the axis value is less than {@code threshold},
+   * Constructs a Trigger instance that is true when the axis value is greater than {@code threshold},
    * attached to {@link CommandScheduler#getDefaultButtonLoop() the default command scheduler button
    * loop}.
    *
